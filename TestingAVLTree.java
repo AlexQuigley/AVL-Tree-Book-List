@@ -79,7 +79,7 @@ class AVLTree {
         if (balance > 1 && key < node.left.key) {
             System.out.println("\n\n\nImbalance condition occurred at inserting ISBN " + key + "; fixed by Left-Left Rotation\n");
             TreeNode rotatedNode = rightRotate(node);
-            printTree(root, "", true);  // Print the updated tree after rotation
+            printTree(root, "", true);  
             return rotatedNode;
         }
 
@@ -87,7 +87,7 @@ class AVLTree {
         if (balance < -1 && key > node.right.key) {
             System.out.println("\n\n\nImbalance condition occurred at inserting ISBN " + key + "; fixed by Right-Right Rotation\n");
             TreeNode rotatedNode = leftRotate(node);
-            printTree(root, "", true);  // Print the updated tree after rotation
+            printTree(root, "", true);  
             return rotatedNode;
         }
 
@@ -96,7 +96,7 @@ class AVLTree {
             System.out.println("\n\n\nImbalance condition occurred at inserting ISBN " + key + "; fixed by Left-Right Rotation\n");
             node.left = leftRotate(node.left);
             TreeNode rotatedNode = rightRotate(node);
-            printTree(root, "", true);  // Print the updated tree after rotation
+            printTree(root, "", true);  
             return rotatedNode;
         }
 
@@ -105,7 +105,7 @@ class AVLTree {
             System.out.println("\n\n\nImbalance condition occurred at inserting ISBN " + key + "; fixed by Right-Left Rotation\n");
             node.right = rightRotate(node.right);
             TreeNode rotatedNode = leftRotate(node);
-            printTree(root, "", true);  // Print the updated tree after rotation
+            printTree(root, "", true);  
             return rotatedNode;
         }
 
