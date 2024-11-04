@@ -1,0 +1,83 @@
+Imbalance condition occurred at inserting ISBN 978013468; fixed by Left-Left Rotation
+Imbalance condition occurred at inserting ISBN 978126046; fixed by Left-Left Rotation
+Imbalance condition occurred at inserting ISBN 978161729; fixed by Right-Left Rotation
+Imbalance condition occurred at inserting ISBN 978013767; fixed by Right-Left Rotation
+Imbalance condition occurred at inserting ISBN 978111998; fixed by Left-Right Rotation
+Imbalance condition occurred at inserting ISBN 978193796; fixed by Left-Right Rotation
+Imbalance condition occurred at inserting ISBN 979837219; fixed by Right-Right Rotation
+Imbalance condition occurred at inserting ISBN 979837742; fixed by Left-Right Rotation
+Imbalance condition occurred at inserting ISBN 978039386; fixed by Right-Left Rotation
+Imbalance condition occurred at inserting ISBN 978067427; fixed by Right-Left Rotation
+Imbalance condition occurred at inserting ISBN 978148425; fixed by Right-Right Rotation
+Imbalance condition occurred at inserting ISBN 978014198; fixed by Right-Left Rotation
+Imbalance condition occurred at inserting ISBN 978099914; fixed by Right-Right Rotation
+Imbalance condition occurred at inserting ISBN 978111979; fixed by Left-Right Rotation
+Imbalance condition occurred at inserting ISBN 978109812; fixed by Right-Left Rotation
+Imbalance condition occurred at inserting ISBN 978173604; fixed by Left-Right Rotation
+Imbalance condition occurred at inserting ISBN 978107601; fixed by Right-Left Rotation
+Imbalance condition occurred at inserting ISBN 978819324; fixed by Left-Left Rotation
+Imbalance condition occurred at inserting ISBN 978013485; fixed by Left-Left Rotation
+Imbalance condition occurred at inserting ISBN 978111877; fixed by Left-Left Rotation
+Imbalance condition occurred at inserting ISBN 978047012; fixed by Left-Left Rotation
+Imbalance condition occurred at inserting ISBN 978013652; fixed by Right-Right Rotation
+Imbalance condition occurred at inserting ISBN 979867801; fixed by Right-Left Rotation
+Imbalance condition occurred at inserting ISBN 979841146; fixed by Left-Left Rotation
+Imbalance condition occurred at inserting ISBN 978110845; fixed by Left-Right Rotation
+
+
+
+Final Tree
+
+L── 978149191 (b: -1, h: 6)
+|  L── 978074407 (b: 0, h: 4)
+|  |  L── 978013767 (b: -1, h: 3)
+|  |  |  L── 978013485 (b: 0, h: 1)
+|  |  |  |  L── 978013468 (b: 0, h: 0)
+|  |  |  |  R──978013652 (b: 0, h: 0)
+|  |  |  R──978039386 (b: -1, h: 2)
+|  |  |    L── 978014198 (b: 0, h: 0)
+|  |  |    R──978047038 (b: 0, h: 1)
+|  |  |      L── 978047012 (b: 0, h: 0)
+|  |  |      R──978067427 (b: 0, h: 0)
+|  |  R──978111972 (b: 0, h: 3)
+|  |    L── 978109812 (b: 0, h: 2)
+|  |    |  L── 978107601 (b: 0, h: 1)
+|  |    |  |  L── 978099914 (b: 0, h: 0)
+|  |    |  |  R──978109810 (b: 0, h: 0)
+|  |    |  R──978111877 (b: 1, h: 1)
+|  |    |    L── 978110845 (b: 0, h: 0)
+|  |    R──978111986 (b: -1, h: 2)
+|  |      L── 978111979 (b: 0, h: 0)
+|  |      R──978126046 (b: 0, h: 1)
+|  |        L── 978111998 (b: 0, h: 0)
+|  |        R──978148425 (b: 0, h: 0)
+|  R──979837410 (b: 0, h: 5)
+|    L── 978193796 (b: 1, h: 4)
+|    |  L── 978161729 (b: -1, h: 3)
+|    |  |  L── 978157955 (b: 0, h: 1)
+|    |  |  |  L── 978149203 (b: 0, h: 0)
+|    |  |  |  R──978159028 (b: 0, h: 0)
+|    |  |  R──978173604 (b: 0, h: 2)
+|    |  |    L── 978169299 (b: 1, h: 1)
+|    |  |    |  L── 978168050 (b: 0, h: 0)
+|    |  |    R──978180324 (b: -1, h: 1)
+|    |  |      R──978191412 (b: 0, h: 0)
+|    |  R──979837212 (b: 1, h: 2)
+|    |    L── 979836819 (b: 0, h: 1)
+|    |    |  L── 978819324 (b: 0, h: 0)
+|    |    |  R──979836995 (b: 0, h: 0)
+|    |    R──979837219 (b: 0, h: 0)
+|    R──979837894 (b: -1, h: 4)
+|      L── 979837714 (b: 1, h: 2)
+|      |  L── 979837671 (b: 1, h: 1)
+|      |  |  L── 979837457 (b: 0, h: 0)
+|      |  R──979837742 (b: 0, h: 0)
+|      R──979840636 (b: -1, h: 3)
+|        L── 979838560 (b: 1, h: 1)
+|        |  L── 979837922 (b: 0, h: 0)
+|        R──979882153 (b: 0, h: 2)
+|          L── 979855809 (b: 0, h: 1)
+|          |  L── 979841146 (b: 0, h: 0)
+|          |  R──979867801 (b: 0, h: 0)
+|          R──979898582 (b: -1, h: 1)
+|            R──979898692 (b: 0, h: 0)

@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 // DRIVER FUNCTION 
 
-public class TestingAVLTree {
+public class Homework4_AVLTree {
     public static void main(String[] args) {
         AVLTree tree = new AVLTree();
 
@@ -77,35 +77,35 @@ class AVLTree {
 
         // Left-Left (LL case)
         if (balance > 1 && key < node.left.key) {
-            System.out.println("\n\n\nImbalance condition occurred at inserting ISBN " + key + "; fixed by Left-Left Rotation\n");
+            System.out.println("Imbalance condition occurred at inserting ISBN " + key + "; fixed by Left-Left Rotation");
             TreeNode rotatedNode = rightRotate(node);
-            printTree(root, "", true);  
+            //printTree(root, "", true);  
             return rotatedNode;
         }
 
         // Right-Right (RR case)
         if (balance < -1 && key > node.right.key) {
-            System.out.println("\n\n\nImbalance condition occurred at inserting ISBN " + key + "; fixed by Right-Right Rotation\n");
+            System.out.println("Imbalance condition occurred at inserting ISBN " + key + "; fixed by Right-Right Rotation");
             TreeNode rotatedNode = leftRotate(node);
-            printTree(root, "", true);  
+            //printTree(root, "", true);  
             return rotatedNode;
         }
 
         // Left-Right (LR case)
         if (balance > 1 && key > node.left.key) {
-            System.out.println("\n\n\nImbalance condition occurred at inserting ISBN " + key + "; fixed by Left-Right Rotation\n");
+            System.out.println("Imbalance condition occurred at inserting ISBN " + key + "; fixed by Left-Right Rotation");
             node.left = leftRotate(node.left);
             TreeNode rotatedNode = rightRotate(node);
-            printTree(root, "", true);  
+            //printTree(root, "", true);  
             return rotatedNode;
         }
 
         // Right-Left (RL case)
         if (balance < -1 && key < node.right.key) {
-            System.out.println("\n\n\nImbalance condition occurred at inserting ISBN " + key + "; fixed by Right-Left Rotation\n");
+            System.out.println("Imbalance condition occurred at inserting ISBN " + key + "; fixed by Right-Left Rotation");
             node.right = rightRotate(node.right);
             TreeNode rotatedNode = leftRotate(node);
-            printTree(root, "", true);  
+            //printTree(root, "", true);  
             return rotatedNode;
         }
 
